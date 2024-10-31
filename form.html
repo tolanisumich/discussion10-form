@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sample Form</title>
+  <link rel="stylesheet" href="css/style.css"/>
+
+</head>
+<body>
+    <form action="https://formspree.io/f/xeoqagpp" method="POST">
+        <fieldset>
+            <legend>Form</legend>
+
+            <label for="first-name_id">First Name:</label>
+            <input type="text" placeholder="Jane" name="first-name" id="first-name_id"  required>
+
+            <label for="last-name_id">Last Name:</label>
+            <input type="text" placeholder="Smith" name="last-name" id="last-name_id" required>
+
+            <label for="program_id">Program: </label>
+            <input type="text"  placeholder="MSI - UX" name="program" id="program_id">
+
+            <label for="email_id">Email: </label>
+            <input type="email"  placeholder="jane@umich.edu" name="email" id="email_id" required>
+            <div class="message-class">
+
+            <p>Ask an Advisor:</p>
+
+                <input type="text" placeholder="Subject Line"id="subject_id" name="subject" required>
+                <textarea name="message" placeholder="type message here" required></textarea>
+            </div>
+
+            <input type="submit" id="submit_id" name="submit" value="Submit">
+        </fieldset>
+    </form>
+</body>
+</html>
